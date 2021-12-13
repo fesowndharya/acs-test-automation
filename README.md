@@ -11,7 +11,6 @@ step 2:
 
 # Steps to run docker
     1. docker build -t sowkar/cache-demo:acs .
-    2.
 
 # To list created images
     docker images
@@ -30,4 +29,6 @@ step 2:
 
 # To run pytest
     pytest src/currency_file.py
-    
+
+# notes
+    we can also log the test result into log files, or we can post this information on log service. 
