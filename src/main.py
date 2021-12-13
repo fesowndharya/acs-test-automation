@@ -1,7 +1,7 @@
-from src.currency_file import CurrencyExchange
+from currency.currency_file import CurrencyExchange
 import time
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     CurrencyExchange.get_config()
     obj1= CurrencyExchange(base_currency="EUR",interval=4)
     print(" USD rate is :{}".format(obj1.get_currency(to_currency = "USD")))

@@ -1,3 +1,4 @@
+requests
 pyyaml
-pytest
+pytest #this is only unit test installation
 requests-mock
